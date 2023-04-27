@@ -1,0 +1,2 @@
+       bwa index draft.genome.fa ：是一个命令，用于使用Burrows-Wheeler Aligner (BWA)工具为基因组文件 draft.genome.fa 构建索引。BWA是一种广泛使用的基因组比对工具，它能够将DNA序列比对到参考基因组上。构建索引是BWA比对过程中的一个关键步骤，它将参考基因组文件中的DNA序列切割成小段，并将这些小段转换为一种数据结构，以便于BWA在比对时快速地查找匹配项。通过使用 bwa index 命令来创建索引，可以使后续的比对过程更加快速和高效。
+  
